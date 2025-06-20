@@ -1,0 +1,82 @@
+/* Registration Page Styling */
+.register-container {
+    width: 500px;
+    margin: 100px auto; /* Centers the box */
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #a38181; /* White background */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .register-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333; /* Darker text color */
+    font-family: Arial, sans-serif;
+  }
+  
+  .register-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-container label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555555; /* Subtle gray for labels */
+  }
+  
+  .register-container input,
+  .register-container select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+  }
+  
+  .register-container input:focus,
+  .register-container select:focus {
+    border: 1px solid #512727; /* Green border on focus */
+    outline: none;
+  }
+  
+  .register-container .dropdown {
+    margin-bottom: 15px;
+  }
+  
+  .register-container .dropdown select {
+    width: 100%;
+  }
+  
+  .register-container button {
+    padding: 12px;
+    background-color: #52252c; /* Green button */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-container button:hover {
+    background-color: #4d2929; /* Slightly darker green on hover */
+  }
+  
+  .register-container .error {
+    color: #d32f2f; /* Red error message */
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Overall background for the page */
+  body {
+    background-color: #f0f4f8; /* Light grayish-blue background */
+    font-family: Arial, sans-serif;
+  }
+  

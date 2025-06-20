@@ -1,0 +1,181 @@
+.dashboard-container {
+  max-width: 650px;  /* Slightly increased width */
+  width: 90%;  
+  margin: 20px auto; /* Keep it centered */
+  padding: 20px; /* Reduce padding */
+  font-family: Arial, sans-serif;
+  color: white;
+  font-weight: bold;
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  min-height: 50px;
+  height: auto; /* Adjust height dynamically */
+}
+
+.upload-form-container {
+  margin-bottom: 5px; /* Further reduce spacing */
+}
+
+.signout-button {
+  position: absolute;
+  top: 15px; /* Distance from the top */
+  right: 20px; /* Distance from the right */
+  padding: 10px 15px;
+  background-color: #a83232;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+ 
+
+
+.signout-button:hover {
+  background-color: #871f1f;
+}
+
+
+
+
+.teacher-section,
+.student-section {
+  margin: 20px 0;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #aea5a6;
+  color: black;
+  text-align: left;
+}
+
+/* Input container to space out form fields */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Adds spacing between input fields */
+  margin-bottom: 20px;
+}
+
+/* If inputs should be side by side */
+.input-row {
+  display: flex;
+  gap: 20px; /* Adds spacing between input columns */
+  justify-content: space-between;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.upload-button,
+.view-marks-button,
+.signout-button {
+  width: 100%;
+  max-width: 250px;
+  margin: 10px auto; /* Less space below */
+  padding: 10px;
+  font-size: 16px;
+  background-color: #a83232;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover,
+.view-marks-button:hover,
+.signout-button:hover {
+  background-color: #551525;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .dashboard-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .teacher-section,
+  .student-section {
+    padding: 20px;
+  }
+
+  .input-row {
+    flex-direction: column; /* Stack inputs on smaller screens */
+    gap: 10px;
+  }
+}
+.signout-button {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  margin: 20px auto; /* More space to separate it */
+  padding: 12px;
+  font-size: 16px;
+  background-color: #974343; /* Brighter red for visibility */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signout-button:hover {
+  background-color: #871f1f; /* Darker shade on hover */
+}
+
+.file-upload-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between label and file input */
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.file-upload-container label {
+  font-weight: bold;
+  color: rgb(174, 169, 169);
+  min-width: 150px; /* Ensures labels are aligned */
+}
+
+.file-upload-container input {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #875151;
+}
+.dashboard-container {
+ /* Allows scrolling */
+  max-height: 100vh; /* Prevents it from exceeding the viewport */
+}
+/* Change input text color */
+.input-row input {
+  color: white; /* Change text color inside input */
+  background-color: #333; /* Dark background for contrast */
+  border: 1px solid #0a0a0a; /* Subtle border */
+}
+
+/* Change placeholder text color */
+/* Change placeholder text color */
+.input-row input::placeholder {
+  color: rgb(8, 8, 8); /* Change to white or any other color */
+  opacity: 1; /* Ensure full visibility */
+}
+
+
+/* If labels exist, change their color */
+label {
+  color: white; /* Adjust color to white */
+  font-weight: bold;
+}

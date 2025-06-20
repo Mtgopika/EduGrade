@@ -1,0 +1,101 @@
+/* Login Page Styling */
+body {
+  background-image: url('https://i.pinimg.com/736x/78/97/da/7897da06000e1a6a5da7a1a54cd3fde2.jpg'); /* Add your background image path here */
+  background-size: cover; /* Makes the background image cover the entire page */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  font-family: Arial, sans-serif;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 400px;
+  margin: 100px auto; /* Centers the box */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #958383; /* White background */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333; /* Darker text color */
+  font-family: Arial, sans-serif;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555555; /* Subtle gray for labels */
+}
+
+.login-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+
+.login-container input:focus {
+  border: 1px solid #340c16; /* Green border on focus */
+  outline: none;
+}
+
+.login-container button {
+  padding: 12px;
+  background-color: #4f161f; /* Green button */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #8f3c3c; /* Slightly darker green on hover */
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-link p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.register-link button {
+  color: #5f2226;
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.register-link button:hover {
+  color: #852a2a; /* Darker green on hover */
+}
+
+/* Overall background for the page */
+body {
+  background-color: #9b6f6f; /* Light grayish-blue background */
+  font-family: Arial, sans-serif;
+}

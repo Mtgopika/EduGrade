@@ -1,0 +1,129 @@
+/* Container with semi-transparent background */
+.results-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Headings */
+.results-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.results-container h3 {
+    color: #222;
+    font-size: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* General text styling */
+.results-container p {
+    font-size: 16px;
+    color: #444;
+    margin: 5px 0;
+}
+
+/* Highlighted text */
+.results-container .highlight {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Detailed Scores */
+.detailed-scores {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: pre-wrap; /* Ensures text wraps properly */
+    word-wrap: break-word; /* Prevents overflow */
+    font-family: 'Courier New', monospace;
+}
+
+/* "Go Back" button styling */
+.back-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.back-button:hover {
+    background: #0056b3;
+}
+
+/* Full-page background image */
+body {
+   
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+/* Ensure the page is contained within the screen */
+html, body {
+    height: 100%;
+    overflow: auto; /* Allow scrolling if content overflows */
+}
+
+/* Add max-height and overflow control */
+.results-container {
+    max-width: 1000px;  /* Increased width */
+    max-height: 90vh;   /* Prevents it from exceeding screen height */
+    overflow-y: auto;   /* Allows scrolling within the results */
+    margin: 5vh auto;   /* Centers while keeping space around */
+    padding: 30px;      /* More padding for a spacious look */
+}
+
+/* Ensure detailed scores don't overflow */
+.detailed-scores {
+    background: #e0e0e0; /* Slightly darker background */
+    padding: 15px;
+    border-radius: 5px;
+    overflow-y: auto; /* Enables scrolling if needed */
+    max-height: 300px; /* Adjust height for better visibility */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: 'Courier New', monospace;
+    font-size: 16px; /* Slightly larger text */
+    color: #000; /* Pure black text for better contrast */
+    font-weight: bold; /* Make text bolder */
+}
+
+/* Ensure the "Go Back" button stays visible */
+.back-button {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Increase the width of the entire app */
+.app {
+    width: 100vw; /* Full viewport width */
+    max-width: 1600px; /* Increase max width */
+    margin: 0 auto; /* Center the app */
+    padding: 20px; /* Add padding */
+}
+
+/* Ensure body takes full width */
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
